@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-03T10:20:51.489Z",
+  "method": "Scripted full browser routes with real choice and assessment controls",
+  "results": [
+    {
+      "stars": 1,
+      "decisions": 391,
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "stars": 2,
+      "decisions": 391,
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "stars": 3,
+      "decisions": 392,
+      "status": "PASS",
+      "errors": []
+    }
+  ]
+}

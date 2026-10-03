@@ -1,0 +1,125 @@
+{
+  "substantiveNarrativeWords": 71643,
+  "narrativeNodes": 450,
+  "endingVariants": 24,
+  "meaningfulChoices": 1116,
+  "events": 122,
+  "multiTurnConversations": 85,
+  "minigameMechanics": 8,
+  "challengeConfigurations": 11,
+  "persistentFlags": 352,
+  "weeks": [
+    {
+      "week": 0,
+      "nodes": 15,
+      "narrativeWords": 2306
+    },
+    {
+      "week": 1,
+      "nodes": 30,
+      "narrativeWords": 4292
+    },
+    {
+      "week": 2,
+      "nodes": 35,
+      "narrativeWords": 4792
+    },
+    {
+      "week": 3,
+      "nodes": 26,
+      "narrativeWords": 3689
+    },
+    {
+      "week": 4,
+      "nodes": 29,
+      "narrativeWords": 4105
+    },
+    {
+      "week": 5,
+      "nodes": 30,
+      "narrativeWords": 4182
+    },
+    {
+      "week": 6,
+      "nodes": 29,
+      "narrativeWords": 4460
+    },
+    {
+      "week": 7,
+      "nodes": 24,
+      "narrativeWords": 3326
+    },
+    {
+      "week": 8,
+      "nodes": 29,
+      "narrativeWords": 4143
+    },
+    {
+      "week": 9,
+      "nodes": 30,
+      "narrativeWords": 4328
+    },
+    {
+      "week": 10,
+      "nodes": 25,
+      "narrativeWords": 3979
+    },
+    {
+      "week": 11,
+      "nodes": 31,
+      "narrativeWords": 4235
+    },
+    {
+      "week": 12,
+      "nodes": 37,
+      "narrativeWords": 5230
+    },
+    {
+      "week": 13,
+      "nodes": 29,
+      "narrativeWords": 4300
+    },
+    {
+      "week": 14,
+      "nodes": 33,
+      "narrativeWords": 4841
+    },
+    {
+      "week": 15,
+      "nodes": 18,
+      "narrativeWords": 3663
+    }
+  ],
+  "gates": {
+    "substantiveNarrativeWords": {
+      "actual": 71643,
+      "minimum": 65000,
+      "pass": true
+    },
+    "narrativeNodes": {
+      "actual": 450,
+      "minimum": 450,
+      "pass": true
+    },
+    "events": {
+      "actual": 122,
+      "minimum": 120,
+      "pass": true
+    },
+    "multiTurnConversations": {
+      "actual": 85,
+      "minimum": 80,
+      "pass": true
+    },
+    "endingVariants": {
+      "actual": 24,
+      "minimum": 24,
+      "pass": true
+    },
+    "minigameMechanics": {
+      "actual": 8,
+      "minimum": 8,
+      "pass": true
+    }
+  }
+}

@@ -1,0 +1,109 @@
+@w01-letterbox
+Ask which small building questions belong at the counter.|C1|Mrs. Vale can identify the appropriate route.|Read the name slot before making assumptions about the old tenant.|I1|A stranger's post stays a practical forwarding matter.
+Write his name legibly on the card.|L1|The letterbox becomes reliably identifiable.|Check where the misdirected letter should remain.|P1|The next person handling it won't need to guess.
+Notice a real repair need before inventing a larger explanation.|I1|The request can stay specific and useful.|Respect the time Mrs. Vale needs to return to work.|C1|The exchange retains a clear practical ending.
+@w01-bus
+Ask one precise question about the changed route.|C1|Priya can give the information needed to get home.|Check the stop display against the map.|I1|Jonah tests the route instead of relying on a familiar turn.
+Let Priya describe what the connection costs her.|C1|The timetable becomes part of a person's actual week.|Remember that a meeting end can be a travel requirement.|P1|A future invitation can include the constraint earlier.
+Ask before making her commute into another conversation.|C1|She can choose whether to continue talking.|Save the evening route for his own planning.|P1|The useful information won't depend on finding Priya again.
+@w02-question
+Replace the largest worry with one answerable first question.|I1|The meeting gains a place to begin.|Allow the large worry to exist without forcing it into one appointment.|S-1|Jonah need not solve the whole future before asking for help.
+Compare Daniel’s preparation method with his own.|P1|A useful structure can be borrowed without copying the situation.|Ask which supporting document the office needs.|C1|The conversation can use evidence from the start.
+Choose an example that reveals the failed step.|I1|The advisor won't have to infer the difficulty from the total.|Keep the broader concern for a setting with enough time.|E1|The first practical question can remain manageable.
+@w02-return
+Check whether another reader is waiting.|C1|The borrowing arrangement includes someone beyond Jonah.|Separate returning the book from abandoning the subject.|S-1|An unfinished reading needn't decide the entire plan.
+Notice how the omitted clause changes the claim.|I1|The quotation's context becomes part of its meaning.|Ask Tessa which reference she records alongside the words.|P1|The checking method becomes easier to repeat.
+Keep enough context to use the note honestly later.|I1|The fragment won't have to stand for more than its source said.|Choose a realistic time to return to optional reading.|E1|The book can leave without becoming a permanent accusation.
+@w03-cost
+Estimate the time he will actually use the room.|P1|The reservation begins to match a named task.|Remember the students whose need isn't visible yet.|C1|An empty slot stops looking like ownerless time.
+Check the cancellation rule before confirming.|I1|A changed plan won't quietly hold the room indefinitely.|Ask whether a shared handoff would work.|C1|Two groups can compare their actual requirements.
+@w03-invitation
+Ask for the deadline before accepting the verification task.|C1|The offer becomes a commitment he can assess.|Check which buildings fit his existing route.|P1|The work can be divided around real travel.
+Name a limit while other volunteers can still plan.|C1|A smaller accurate contribution becomes useful.|Notice that declining a task needn't cancel the invitation.|S-1|Jonah can remain interested without promising unavailable time.
+@w04-ownwork
+Accept that the closed folder marks a chosen boundary.|M1|Closeness doesn't require access to every draft.|Ask about the shared seminar text instead.|P1|The conversation has another legitimate subject.
+Offer feedback only for a later version she chooses to share.|C1|The offer can remain available without creating a deadline.|Let the brief encounter finish before the next class.|E1|Both people retain their scheduled time.
+@w04-retrieval
+Mark exactly where the explanation fails without the notes.|I1|The gap becomes more specific than a feeling of confusion.|Try writing the uncertainty as a question.|P1|The next attempt will have a clear starting point.
+Let Amir wait instead of requesting the answer immediately.|P1|Jonah has room to produce the missing step.|Use a changed example to test the method.|I1|Recognition must become application.
+@w05-payday
+Ask when earned wages actually reach the account.|C1|The ledger gains a payment date as well as a total.|Read the separate training code before assuming hours are missing.|I1|The record receives a fair check before an accusation.
+Keep the reporting deadline with the time sheet.|P1|A future discrepancy can be raised while the evidence is clear.|Notice Luca finishing one conversation before beginning another.|E1|A bounded task can receive full attention.
+@w05-message
+Name what he already knows about the delay.|I1|Uncertainty about the exact arrival doesn't erase certainty about being late.|Ask Ben to check the message's practical information.|B1|A friend can help without inventing a better excuse.
+Remove the defensive background from the first notice.|C1|The recipient can quickly see the delay and available options.|Offer rescheduling as a real choice.|P1|The other person's next minutes remain theirs to use.
+Send before boarding rather than wait for a complete story.|C1|The message can still change someone else's plan.|Separate an apology from a demand that the time be restored.|S-1|The notice doesn't have to guarantee a convenient outcome.
+@w06-consent
+Ask what happens when a participant stops midway.|I1|Voluntary participation gains a practical meaning beyond the first yes.|Listen to Priya’s travel example.|C1|A real reason for leaving enters the procedure.
+Explain the withdrawal limit before collecting the account.|P1|The participant can decide with the relevant information.|Check whether the filing method supports the promised withdrawal.|I1|A procedure must be possible to perform, not merely reassuring.
+Keep a concise spoken explanation and a clear written one.|C1|The invitation can fit a busy person's available attention.|Seek review of an unresolved point before recruiting.|P1|The deadline won't be asked to supply an ethics rule.
+@w06-caption
+Ask who authored the diagram before reusing it.|C1|The visual contribution becomes visible as work.|Check whether the diagram's claim matches the project.|I1|A useful-looking layout still needs a relevant method.
+Distinguish attribution from permission to alter the meaning.|I1|The author's name won't be attached to an argument they didn't make.|Ask Daniel what use he is actually offering.|C1|The team can work from explicit terms.
+Allow a simpler figure to replace an impressive mismatch.|L1|Clarity begins to take priority over decoration.|Record any adaptation honestly.|P1|The final slide can carry a traceable account of its origin.
+@w07-errors
+Separate a correct guess from a method he can explain.|I1|The review can find useful work even behind a right answer.|Choose one error pattern rather than relive the total.|S-1|The result becomes a set of manageable tasks.
+Ask Sofia to change an assumption in the example.|F1|The explanation receives a meaningful test.|Keep the second attempt visible beside the first.|P1|Improvement can be checked rather than merely announced.
+Record the exact gap the new attempt exposes.|I1|The next review will have a clear subject.|Stop before practice turns into exhausted copying.|E1|The remaining attention is treated as a finite resource.
+@w07-homework
+Ask about the household problem without offering money he lacks.|C1|Concern can take a form the ledger supports.|Let his mother's ordinary week enter the call.|H1|Jonah's semester need not occupy every minute.
+Separate listening from taking responsibility for solving the machine.|S-1|Another person's difficulty doesn't automatically become his bill.|Offer to compare the actual repair estimates.|I1|The help can match an identifiable task.
+Share one academic fact without guaranteeing the final.|C1|The update stays honest about what remains uncertain.|Allow the call to include unrelated family conversation.|H1|Connection can exist outside a performance of coping.
+@w08-camera
+Ask what use the photograph would actually serve.|I1|The strongest image needn't be the most appropriate one.|Let the people pictured choose their level of visibility.|C1|Their preferences remain part of the publication decision.
+Keep the caption from assigning a private story to attendance.|I1|The event can be described without guessing why someone came.|Support a design change that preserves consent.|L1|The layout can adapt instead of pressuring its subjects.
+@w08-map
+Admit the wrong turn without assigning a culprit.|S-1|The group can change direction before the mistake becomes a dispute.|Check the map now that the uncertainty is clear.|P1|A failed guess can lead to useful information.
+Notice the bus connection in Priya’s recommendation.|I1|A usable place includes the journey home.|Let the conversation include other people's homesickness.|B1|Jonah doesn't have to be the only uncertain arrival.
+Leave room for silence without interpreting it as failed company.|H1|The afternoon can remain comfortable without continuous performance.|Compare the remaining time with the actual bus schedule.|P1|The pleasant outing can end without creating a new problem.
+@w09-public
+Check the correction's factual job before changing its tone.|I1|The public record doesn't need to perform a complete emotional repair.|Keep Maya’s private messages outside the proposed text.|M1|Accuracy can be achieved without unnecessary exposure.
+Distinguish reaching the audience from dramatizing the dispute.|C1|The correction can travel without acquiring new harm.|Check Sofia’s contribution record against the wording.|P1|The replacement account has a shared source.
+Request evidence-based changes rather than a more flattering portrait.|I1|Jonah can help make the account reliable.|Allow others to complete their own parts of the correction.|E1|He needn't control every retelling of himself.
+@w09-secondchance
+Read the new study conditions as a practical agreement.|P1|The invitation can be evaluated without demanding a symbolic pardon.|Ask what prepared work the group expects.|C1|A clarification can make the condition usable.
+Keep the study group separate from pressure on Maya.|M1|Academic support won't become a campaign about her boundaries.|Check the rota before accepting the meeting.|I1|The second invitation receives an accurate commitment.
+@w10-balance
+Keep expected and actual payment dates distinct.|I1|The ledger can explain a difference without inventing misconduct.|Correct the small date error while both copies are present.|P1|The next conversation will need less reconstruction.
+Name confirmed income instead of a hopeful total.|C1|The arrangement can rely on something checkable.|Accept that a practical conversation may remain uncomfortable.|S-1|Discomfort doesn't mean the other person is judging his whole life.
+@w10-source
+Identify the original consent scope before choosing the quotation.|I1|A persuasive sentence doesn't create permission for a new use.|Ask which part of the proposed audience has changed.|C1|The question becomes specific enough to resolve.
+Keep an alternative slide ready if permission never arrives.|P1|The participant won't be made responsible for the deadline.|Check whether anonymization really removes identifying details.|I1|Removing a name needn't be mistaken for complete privacy.
+Take the question to the appropriate academic resource.|P1|A methods issue won't become a pretext for unwanted personal contact.|Allow a less dramatic slide to remain a valid outcome.|S-1|A stronger story isn't automatically a more responsible presentation.
+@w11-reviewer
+Hear Sofia’s objection without assuming she missed the correction.|F1|Agreement about evidence can coexist with a different judgment.|Name the tradeoff that remains after the factual revision.|I1|The disagreement gains a concrete subject.
+Write the strongest version of her position.|C1|Jonah tests whether he has understood before replying.|Ask which additional evidence could change her recommendation.|P1|The debate can point toward an investigation.
+Let a revised judgment remain his own decision.|I1|Changing his mind needn't mean surrendering authorship.|Keep genuine disagreement visible in the conclusion.|F1|The report needn't invent unanimity to sound finished.
+@w11-author
+Read the author note before treating the page as finished.|P1|The account of help remains part of the submitted work.|Check the chart under ordinary printing conditions.|L1|The design has to work beyond the original screen.
+Give categories readable labels as well as contrasting shades.|L1|More readers can follow the comparison.|Ask what the chart contributes beyond the underlying table.|I1|The visual earns its place through clarity.
+Recognize revision as part of competence.|S-1|Maya's earlier correction no longer needs a hidden explanation.|Keep ownership of the final claim while acknowledging feedback.|C1|The note can credit help without handing responsibility away.
+@w12-timing
+Offer a visit time before trying to perfect the room.|C1|His parents can plan around a real interval.|Distinguish useful cleaning from expensive staging.|I1|The apartment needn't consume food money to look successful.
+Check the work conflict before promising the whole afternoon.|P1|Affection won't require an unreliable schedule.|Choose a familiar place to show them.|H1|The visit can include a real piece of his new city.
+@w12-sister
+Let Maya choose how much of the message to discuss.|M1|The conversation doesn't acquire access to her sister's whole story.|Notice that wanted help can have specific limits.|I1|Support and control become easier to distinguish.
+Listen without deciding what the family should do.|M1|Maya can think aloud without receiving an appointment of authority.|Share only a parallel experience that leaves her question intact.|C1|Reciprocity doesn't have to take over the subject.
+Accept the concrete request about carrying supplies.|H1|The help can remain ordinary and chosen.|Check his own next commitment while she replies.|P1|Both lives keep a place in the afternoon.
+@w13-noaudience
+Describe what belongs to his own feelings.|C1|Ben can understand without receiving a private transcript.|Accept that a shorter account can still be honest.|S-1|Completeness doesn't require another person's exposure.
+Ask for company rather than a verdict about Maya.|B1|Friendship can help without becoming an appeal panel.|Give Ben’s presentation concern room too.|C1|The conversation stays reciprocal under emotional pressure.
+@w13-promises
+Separate essential tasks from the wish to finish everything.|I1|The calendar can begin with priorities.|Write a realistic ending time before adding topics.|P1|The available hours won't silently expand.
+Put travel and meals into the same schedule as study.|E1|The plan contains a real person rather than uninterrupted effort.|Ask which shared topic addresses an actual gap.|C1|The group can use its time specifically.
+Reduce an optional task before tiredness makes the decision.|P1|The compromise can be communicated with notice.|Keep a private attempt before asking the group for answers.|I1|The session can build on work Jonah owns.
+@w14-afterward
+Record what the panel actually asked while the wording is fresh.|P1|Memory won't have to reconstruct a flattering version later.|Ask Ben which part he wants confirmed.|B1|A specific answer can replace generalized reassurance.
+Keep good and weak parts in the same account.|I1|The defense needn't become either triumph or disaster.|Name contributions that were less visible at the lectern.|C1|The archive can represent more than the speaking order.
+Mark obsolete files before sharing the final slides.|P1|A later audience won't receive a superseded claim by accident.|Check that consent limits remain attached to the archived material.|I1|The end of the presentation doesn't end responsibility for its sources.
+@w14-waiting
+Distinguish a useful verification from repeated reassurance-seeking.|I1|One check can have a defined ending.|Allow uncertainty to accompany an ordinary activity.|S-1|The day needn't remove the feeling before it can be lived.
+Plan a first practical action for each possible result.|P1|The letter won't have to arrive with every next decision unprepared.|Let the river remain a view rather than another assignment.|H1|Attention can rest without producing an academic insight.
+@w15-catalogue
+Keep evidence of change without preserving every scrap.|I1|The record can be accurate and manageable.|Separate a borrowed item from an emotional keepsake.|P1|The right object can return to its owner.
+Let messages require different kinds of answers.|C1|One general promise won't have to cover every relationship.|Include the difficult academic documents with the improved work.|I1|Future conversations can begin from the full record.
+Choose what the next folder actually needs to contain.|L1|The work becomes easier to carry and find.|Allow the box to close before every feeling is resolved.|S-1|An ordinary task can finish inside an unfinished life.
+@w15-door
+Ask where the boxes belong before choosing a helpful-looking spot.|C1|The assistance fits the person receiving it.|Notice the practical rule without turning it into a performance.|H1|A useful small action can remain small.
+Check the notice terms and account balance accurately.|I1|The housing route can follow the actual plan.|Give the customer room while the shop continues its day.|C1|Jonah's important conversation needn't occupy every available space.
+Let the key be useful and meaningful without forcing a conclusion.|S-1|The object doesn't have to explain the entire semester.|Confirm the next date before leaving the counter.|P1|The final exchange produces an arrangement someone can rely on.

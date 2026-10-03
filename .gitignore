@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+*.log
+
+# Generated authoring plan; regenerate before compiling revised page boundaries.
+tools/page-plan.json

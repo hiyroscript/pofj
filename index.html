@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#101113">
+<meta name="description" content="A choice-driven college-life novel. A room of your own. A semester to earn. Every choice has a semester behind it.">
+<title>A Golden Semester</title>
+<link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+<div id="app">
+<header class="topbar"><a class="wordmark" href="#" id="brand" aria-label="A Golden Semester, open menu"><span class="mark" aria-hidden="true">A / G</span><span>A GOLDEN<br>SEMESTER</span></a><div class="topmeta"><span id="calendar">A BELLWETHER STORY</span><span id="save-status" role="status">Local device · Private</span></div><nav aria-label="Game controls"><button id="status-button" class="quiet">Status</button><button id="menu-button" class="quiet">Menu <span aria-hidden="true">☰</span></button></nav></header>
+<div id="compact-stats" aria-label="Current attributes" hidden></div>
+<main id="stage" tabindex="-1"><div class="loading"><p class="eyebrow">A BELLWETHER STORY</p><h1>A Golden Semester</h1><p>Opening the book…</p><p id="load-error" role="alert"></p><noscript>This game requires JavaScript. Enable it and reload; no account or network service is required.</noscript></div></main>
+<footer id="decision-pane" aria-label="Decisions"><div id="decision-meta"></div><div id="choices"></div><div class="footer-note"><span id="chapter-progress">FIFTEEN WEEKS. A LIFE TAKING SHAPE.</span><span id="key-hint">A–D TO CHOOSE <span aria-hidden="true">·</span> TAKE YOUR TIME</span></div></footer>
+</div>
+<dialog id="panel" aria-labelledby="panel-title"><div class="dialog-top"><h2 id="panel-title"></h2><button id="close-panel" class="quiet" aria-label="Close panel">Close ×</button></div><div id="panel-body"></div></dialog>
+<div id="orientation" hidden role="alertdialog" aria-modal="true" aria-labelledby="orientation-title" tabindex="-1"><div class="rotate-icon" aria-hidden="true">↻</div><p class="eyebrow">A MOMENT TO REORIENT</p><h2 id="orientation-title">Rotate your device to continue</h2><p>Your place is saved. The story will be here.</p></div>
+<div id="announcement" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+<script type="module" src="./js/app.js"></script>
+<script>window.addEventListener('error',function(e){if(!window.goldenReady){document.getElementById('load-error').textContent='The book could not load. Please reload, or serve this folder using a local HTTP server. Your saved progress has not been deleted.';}});</script>
+</body></html>

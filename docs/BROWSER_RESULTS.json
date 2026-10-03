@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-03T05:22:18.759Z",
+  "results": [
+    {
+      "name": "title, begin, accessible controls and exact refresh",
+      "status": "PASS"
+    },
+    {
+      "name": "double click resolves once and modal letter shortcuts are blocked",
+      "status": "PASS"
+    },
+    {
+      "name": "all eight minigame UIs accept and persist correct interaction",
+      "status": "PASS"
+    },
+    {
+      "name": "all three ending screens, archive preservation and confirmed new game",
+      "status": "PASS"
+    },
+    {
+      "name": "export download, import confirmation and independent delete controls",
+      "status": "PASS"
+    },
+    {
+      "name": "corrupt saves remain exportable and blocked or full storage stays playable",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop landscape sizes, 200% text and desktop portrait overlay",
+      "status": "PASS"
+    },
+    {
+      "name": "phone portrait sizes, long choices, landscape block and resume",
+      "status": "PASS"
+    },
+    {
+      "name": "no runtime errors, third-party requests or audio",
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

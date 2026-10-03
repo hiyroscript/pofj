@@ -1,0 +1,82 @@
+@p02
+Ask where maintenance requests belong.|C1|Mrs. Vale points to the number beside the lease.|Check the household instructions himself.|I1|Jonah locates the practical rules before unpacking.
+@p03
+Copy the retention threshold beside the weights.|P1|The requirement becomes part of his working notes.|Pause long enough to absorb the consequence.|S-1|He reads without immediately inventing a verdict about himself.
+Name the scheduling conflict first.|C1|Evans can answer the specific question directly.|Keep the letter open during the call.|P1|Jonah can check the wording while listening.
+Ask how required work is recorded.|T1|Evans points him toward submission receipts.|Write down the revision-window question.|I1|The next question now has a precise subject.
+Distinguish attending support from mastering work.|I1|Jonah marks the difference in his notes.|Ask what a useful first appointment needs.|C1|Evans requests an attempt and a specific question.
+Save the appointment immediately.|P1|The time goes into the calendar before he forgets.|Leave space for questions that emerge later.|S-1|The page no longer has to anticipate everything tonight.
+@p04
+Admit that grocery planning is new to him.|C1|Tessa gives the practical explanation without making a ceremony of it.|Study the shelf label before asking more.|I1|The small print supplies a useful comparison.
+Compare immediate cost with cost per portion.|I1|Jonah identifies two different financial questions.|Check whether the larger tin fits this week’s plan.|P1|He keeps the rest of the shopping in view.
+Plan a meal that tired Jonah could actually cook.|E1|The simplest usable recipe moves up his list.|Ask what Tessa usually forgets.|C1|They trade an ordinary joke about imperfect shopping.
+Check the hotplate requirement on his list.|P1|Several impractical ingredients leave the proposed plan.|Keep one convenient meal as a fallback.|E1|He allows the plan to contain a tired evening.
+Notice how routinely the cashier handles a change.|S-1|Jonah lets the imagined embarrassment lose some authority.|Recheck his own total before reaching the till.|I1|The arithmetic becomes a task rather than a judgment.
+@w0101
+Write the recovery dates beside the standard.|P1|Jonah records what can be done before the final decision.|Take one steady breath before approaching anyone.|S-1|The room becomes easier to notice beyond the warning.
+@w0102
+Ask which services include commuters.|C1|Nia turns the relevant leaflet toward him.|Read the opening hours before choosing a service.|P1|The available times become concrete possibilities.
+Let the awkwardness remain while asking the question.|C1|He doesn't need to feel comfortable before speaking.|Check the printed eligibility line himself.|I1|The rule becomes something he can refer to later.
+Connect the late collection slot to his bus route.|P1|He notes the practical journey, not just the opening time.|Ask whether cooking equipment affects the selection.|C1|Nia can tailor the information to the actual room.
+Answer the allergy question plainly.|S-1|A manageable form replaces an imagined explanation of deserving help.|Keep the collection instructions with his course calendar.|P1|The appointment will be visible beside other commitments.
+Thank Nia for the specific information.|H1|Gratitude fits the actual exchange instead of becoming a speech.|Check one remaining practical uncertainty.|C1|Jonah leaves with an answer he can use.
+@w0103
+Write the reasoning between the two fractions.|I1|His page begins to show more than completed arithmetic.|Mark the step he wants explained later.|P1|The uncertainty gets a location he can return to.
+Ask what population each denominator represents.|I1|The calculation acquires a clear subject.|Listen for how the invitation method changes interpretation.|P1|Jonah notes the question beneath the numbers.
+Separate correct arithmetic from a supported comparison.|I1|He keeps both standards visible.|Use an ordinary example to check his understanding.|P1|The method has to survive different wording.
+Write a fresh explanation rather than copy the phrase alone.|I1|Jonah tests whether he can produce the idea himself.|Save one question for the worked exercise.|P1|The question will guide an actual attempt.
+@w0104
+Read Ben’s invitation literally, without inventing an accusation.|S-1|Jonah lets the offered company remain a possibility.|Check the evening’s actual available time.|P1|He compares commitments before answering.
+@w0106
+Choose one true detail to begin with.|C1|The call can start without a polished summary.|Allow a moment of ordinary kitchen noise.|H1|The familiar sounds make the distance less absolute.
+Join the joke before returning to the update.|H1|Jonah sounds more like himself than a report.|Ask about the missing lid’s eventual hiding place.|C1|His parents’ day receives room in the conversation.
+Describe the route home in concrete terms.|C1|His parents can picture part of the new city.|Check which practical question they most need answered.|P1|The call becomes easier to organize.
+Ask for listening before advice.|C1|Jonah names the kind of support he can use tonight.|Give himself permission to answer one question at a time.|S-1|The conversation need not solve the entire semester.
+Name a new acquaintance without exaggerating the friendship.|C1|An accurate beginning is enough to share.|Let the pleasant detail coexist with the difficult one.|H1|The week is allowed to contain more than one feeling.
+@w0201
+Read the comment before studying the total again.|P1|The page contains something he can act on.|Steady himself before deciding whom to approach.|S-1|Disappointment need not choose the next action for him.
+@w0202
+Compare the three commitments on the same calendar.|I1|The invitations stop pretending to occupy separate evenings.|Tell Ben he needs time to check before answering.|B1|Ben receives a clear reply time rather than silence.
+Ask what a short visit would actually involve.|C1|The invitation becomes easier to assess honestly.|Notice that Ben has not demanded immediate confidence.|S-1|Jonah doesn't have to feel socially ready in advance.
+Ask what each person brings to the study group.|P1|The session begins to sound like a defined task.|Admit that estimating study time is difficult.|B1|Ben can answer the actual uncertainty.
+Set a definite time to send the decision.|P1|Other people will be able to plan around his answer.|Accept that a choice can disappoint a possibility.|S-1|He doesn't have to fit every worthwhile activity into Friday.
+@w0203
+Look for the people missing from the sample.|I1|Jonah identifies a question the twelve cards cannot answer.|Ask which claim the existing interviews can support.|C1|The discussion turns toward the evidence they actually have.
+@w0204
+Read the draft for its claim rather than its tone.|I1|The unsupported leap becomes easier to find.|Make room for the practical tasks around the writing.|E1|The evening can include a meal as well as revision.
+Attempt an explanation before waiting for Ben.|P1|Jonah gives the exchange something concrete to examine.|Ask one question with a precise subject.|B1|Ben can respond without reconstructing the whole assignment.
+Write the alternative explanation in his own words.|I1|The paragraph begins to distinguish association from cause.|Check whether available time could affect attendance too.|P1|Another plausible explanation stays visible.
+Keep the useful evidence while narrowing the conclusion.|I1|A limitation no longer has to destroy the entire argument.|Ask what a better comparison would measure.|C1|The next research step acquires a purpose.
+Thank Ben and finish the wording independently.|B1|The help ends with Jonah taking responsibility for the draft.|Choose a stopping point before the evening disappears.|E1|The remaining household tasks retain a place in the plan.
+@w0205
+Bring one ordinary evening into the discussion.|C1|Evans receives a routine he can help examine.|Keep the marked work visible on the desk.|P1|The conversation has evidence beyond Jonah’s description.
+Distinguish time spent from a completed attempt.|I1|He can see a more useful measure of practice.|Admit where messages usually interrupt the evening.|C1|The plan can address the actual pattern.
+Name a task small enough to test in one block.|P1|The proposed hour gains an observable purpose.|Ask how to record an unsuccessful attempt.|T1|Evans explains what makes failed work useful feedback.
+Correct the impossible travel interval.|I1|The calendar begins to describe a real journey.|Include food before treating the remaining hours as free.|E1|A basic need returns to the schedule.
+Choose a fallback for a tired day.|P1|One missed block won't have to cancel the entire plan.|Ask which support route fits the first academic gap.|C1|Jonah can begin with the appropriate resource.
+@w0206
+Make space for the other student’s pages.|C1|The shared equipment becomes easier to use.|Check that his own feedback has printed legibly.|P1|The comments remain available for the meeting.
+Apologize briefly for staring, without extending the awkwardness.|C1|The exchange can return to the practical task.|Notice the correction before assuming the work was effortless.|I1|Competence begins to look compatible with revision.
+Ask what the changed label implies.|I1|Jonah attends to meaning rather than neatness alone.|Let her finish the correction without another question.|E1|Both students retain time for their own work.
+Answer the course question without volunteering a comparison of grades.|S-1|The interaction can remain ordinary.|Keep the comments attached to the original pages.|P1|The number won't be the only part easy to remember.
+Write his own first question while the exchange is fresh.|P1|A useful meeting can begin from a specific uncertainty.|Allow the brief conversation to end pleasantly.|H1|Not every new acquaintance needs to become an immediate obligation.
+@w0301
+Repeat the offered limits before accepting anything.|C1|Hart can check that Jonah understood the arrangement.|Compare the sessions with his actual timetable.|P1|The choice will be based on hours he possesses.
+@w0302
+Point to the first unsupported step.|P1|Maya can see where recognition stopped becoming reasoning.|Describe the gap without calling himself incapable.|S-1|A specific difficulty replaces a permanent label.
+@w0303
+Let Maya decide how much of the family issue to share.|M1|The conversation retains a boundary she controls.|Notice the difference between being capable and being available.|I1|Jonah considers the assumption inside his first reaction.
+@w0304
+Keep the long wait visible beside the median.|I1|The summary won't erase the person with a different experience.|Ask which description helps a reader understand the whole set.|C1|The group compares purposes rather than competing numbers.
+@w0305
+Check the agreed ending time himself.|P1|Maya doesn't have to perform every reminder.|Write the unanswered question down immediately.|I1|The wording can survive until the next useful opportunity.
+Acknowledge the equipment booking as a real commitment.|M1|Her next appointment doesn't need to justify itself further.|Identify what he can attempt without her present.|P1|The remaining work begins to belong to the time between meetings.
+Mark the uncertainty in the next step.|I1|A tentative attempt won't masquerade as a reliable method.|Keep the question short enough to review next time.|P1|They will have a clear place to restart.
+Accept that an imperfect attempt can be useful.|S-1|Jonah need not obtain certainty before practicing.|Choose where to bring a different kind of question.|C1|The support network gains another appropriate destination.
+Let the end time stand without one last exception.|M1|The next meeting becomes easier to trust.|Reserve a quiet interval to test the unfinished example.|P1|The boundary leaves him with a task rather than abandonment.
+@w0306
+Separate evidence of practice from a claim about effort.|I1|The record begins to describe observable work.|Take a short pause before judging the whole week.|S-1|Jonah can notice more than the latest disappointment.
+Ask what an unfinished attempt can demonstrate.|C1|Evans distinguishes feedback evidence from graded mastery.|Choose one example to include with the form.|P1|The account will have something concrete attached.
+Leave an error visible instead of polishing it out of the record.|I1|The advisor will be able to identify the failed step.|Keep the family call separate from filling the form.|E1|Both conversations receive more attention.
+Ask his father how fault reports become useful.|C1|The comparison draws on his father’s actual work.|Record what was changed and tested in his own attempt.|P1|The academic report acquires a practical structure.
+Name the next action instead of promising general improvement.|P1|The following week gains a task he can recognize.|Let the truthful record contain progress and unfinished work.|S-1|Accuracy does not require either triumph or self-accusation.

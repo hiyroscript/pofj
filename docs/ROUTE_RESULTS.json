@@ -1,0 +1,114 @@
+[
+  {
+    "style": "independent",
+    "wrongExamAnswers": false,
+    "pursueDating": false,
+    "grade": 95.5,
+    "stars": 2,
+    "ending": "fair-aid",
+    "decisions": 392,
+    "cash": 23,
+    "stats": {
+      "Intelligence": 100,
+      "Charisma": 100,
+      "Looks": 59,
+      "Happiness": 75
+    }
+  },
+  {
+    "style": "social",
+    "wrongExamAnswers": false,
+    "pursueDating": false,
+    "grade": 95.9,
+    "stars": 2,
+    "ending": "fair-aid",
+    "decisions": 391,
+    "cash": 149,
+    "stats": {
+      "Intelligence": 100,
+      "Charisma": 100,
+      "Looks": 53,
+      "Happiness": 68
+    }
+  },
+  {
+    "style": "balanced",
+    "wrongExamAnswers": false,
+    "pursueDating": false,
+    "grade": 95.9,
+    "stars": 2,
+    "ending": "fair-aid",
+    "decisions": 391,
+    "cash": 149,
+    "stats": {
+      "Intelligence": 100,
+      "Charisma": 100,
+      "Looks": 53,
+      "Happiness": 68
+    }
+  },
+  {
+    "style": "independent",
+    "wrongExamAnswers": false,
+    "pursueDating": true,
+    "grade": 95.5,
+    "stars": 3,
+    "ending": "good-work",
+    "decisions": 393,
+    "cash": 23,
+    "stats": {
+      "Intelligence": 100,
+      "Charisma": 100,
+      "Looks": 59,
+      "Happiness": 84
+    }
+  },
+  {
+    "style": "social",
+    "wrongExamAnswers": false,
+    "pursueDating": true,
+    "grade": 95.9,
+    "stars": 3,
+    "ending": "good-work",
+    "decisions": 392,
+    "cash": 149,
+    "stats": {
+      "Intelligence": 100,
+      "Charisma": 100,
+      "Looks": 53,
+      "Happiness": 77
+    }
+  },
+  {
+    "style": "balanced",
+    "wrongExamAnswers": false,
+    "pursueDating": true,
+    "grade": 95.9,
+    "stars": 3,
+    "ending": "good-work",
+    "decisions": 392,
+    "cash": 149,
+    "stats": {
+      "Intelligence": 100,
+      "Charisma": 100,
+      "Looks": 53,
+      "Happiness": 77
+    }
+  },
+  {
+    "style": "balanced",
+    "wrongExamAnswers": true,
+    "pursueDating": false,
+    "grade": 50.9,
+    "stars": 1,
+    "ending": "bad-repair",
+    "decisions": 391,
+    "cash": 149,
+    "stats": {
+      "Intelligence": 100,
+      "Charisma": 100,
+      "Looks": 53,
+      "Happiness": 60
+    }
+  }
+]

@@ -1,0 +1,41 @@
+import prologue from './chapters/prologue.js';
+import week01 from './chapters/week01.js';
+import week02 from './chapters/week02.js';
+import week03 from './chapters/week03.js';
+import week04 from './chapters/week04.js';
+import week05 from './chapters/week05.js';
+import week06 from './chapters/week06.js';
+import week07 from './chapters/week07.js';
+import week08 from './chapters/week08.js';
+import week09 from './chapters/week09.js';
+import week10 from './chapters/week10.js';
+import week11 from './chapters/week11.js';
+import week12 from './chapters/week12.js';
+import week13 from './chapters/week13.js';
+import week14 from './chapters/week14.js';
+import week15 from './chapters/week15.js';
+import { endingVariants } from './chapters/endings.js';
+import { attachMemories } from './memories.js';
+import { attachPages } from './decisions/index.js';
+import { attachConversations } from './conversations/index.js';
+import { attachBranches } from './branches/index.js';
+import { attachChecks } from './checks.js';
+import { matches, rating } from '../js/state.js';
+export const chapters = [prologue,week01,week02,week03,week04,week05,week06,week07,week08,week09,week10,week11,week12,week13,week14,week15];
+const nodes = chapters.flat();
+if (new Set(nodes.map(n=>n.id)).size !== nodes.length) throw new Error('Duplicate story node ID');
+export const graph = Object.fromEntries(nodes.map(n=>[n.id,n]));
+graph.epilogue = { id:'epilogue',chapter:15,chapterTitle:'After the Grades',title:'After the Grades',location:'Alderport',timeSlot:'Evening',terminal:true,narrativeBlocks:[{type:'narration',text:'The next part of the story begins with the semester Jonah actually lived.'}],choices:[] };
+attachChecks(graph);
+attachBranches(graph,chapters);
+attachConversations(graph);
+export const unpagedGraph=structuredClone(graph);
+attachPages(graph,chapters);
+attachMemories(graph);
+export { endingVariants };
+export function pickEnding(s) {
+  const options=endingVariants.filter(e=>e.rating===rating(s));
+  // Most specific routes precede general ones; the final item is always a fallback.
+  const priorities = rating(s)===1 ? ['bad-integrity','bad-repair','bad-work','bad-late-help','bad-friends','bad-independent','bad-repaired-family','bad-quiet'] : rating(s)===2 ? ['fair-unreciprocated','fair-distance','fair-aid','fair-work','fair-peers','fair-independent','fair-platonic','fair-quiet'] : ['good-repair','good-research','good-work','good-peers','good-independent','good-family','good-quiet','good-beginning'];
+  return priorities.map(id=>options.find(e=>e.id===id)).find(e=>e && (!e.when || matches(s,e.when)));
+}

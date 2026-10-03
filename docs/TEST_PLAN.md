@@ -1,6 +1,6 @@
 # Verification report
 
-Date: 2026-10-03. Environment: Node 24, system Chromium driven by Playwright, Linux. Game served at `http://127.0.0.1:8765/pof/`; the project prefix matches the intended GitHub Pages path. No production dependencies were installed into the game.
+Date: 2026-10-03. Environment: Node 24, system Chromium driven by Playwright, Linux. Initial checks used `http://127.0.0.1:8765/pof/`. All nine browser acceptance groups were then repeated successfully at the deployed **https://hiyroscript.github.io/pof/**; reports include the tested URL. No production dependencies were installed into the game.
 
 ## Automated results
 
@@ -24,7 +24,7 @@ Date: 2026-10-03. Environment: Node 24, system Chromium driven by Playwright, Li
 | Desktop layout | PASS | Landscape 1024×600, 1366×768, 1920×1080; portrait blocks with inert controls and retains exact passage. |
 | Enlarged narrative | PASS | 36px narrative (200% of default) on 1024×600; prose scrolls independently and choices do not overflow. This is enlarged text, not a native browser zoom test. |
 | Privacy, sound and runtime errors | PASS | Main-page request log contains only same-origin local assets; zero audio/video elements and zero page errors. No analytics or third-party runtime imports in source. |
-| Full browser principal routes | PASS | `docs/WALKTHROUGH_RESULTS.json`: 391 / 391 / 392 decisions; zero page errors. `node tests/walkthrough.cjs` uses real choice and assessment controls through arrival → finals → each of the three star categories, comparing all final grades and choice records to the deterministic engine route. |
+| Full browser principal routes | PASS | `docs/WALKTHROUGH_RESULTS.json`: 391 / 391 / 392 decisions on the public HTTPS site; zero page errors. `node tests/walkthrough.cjs` uses real choice and assessment controls through arrival → finals → each of the three star categories, comparing all final grades and choice records to the deterministic engine route. |
 
 The logic suite contains 12 passing tests. `BROWSER_RESULTS.json` records nine passing browser groups. Screenshots under `docs/screenshots` document the rendered title, reading layouts and principal endings. The corpus meets the mandatory 65,000-word floor, not the aspirational 90,000–130,000 target.
 
@@ -40,7 +40,7 @@ Automation exercised focus at the epilogue and modal close, keyboard shortcut bl
 - VoiceOver/NVDA speech output, actual 200% browser zoom and full keyboard-only reading have not been manually audited. Semantic/live-region/focus code is present and relevant portions are automated.
 - Full routes are scripted browser walkthroughs, not human multi-hour literary playtests. Reading time and subjective narrative pacing have not been measured with players.
 - All 24 selector states are tested, but only the three principal categories receive a complete browser route.
-- The public URL `https://hiyroscript.github.io/pof/` returned HTTP 404 before delivery. The repository connection cannot enable Pages administration. Enable `main / (root)` in Settings → Pages, wait for deployment, then repeat the browser suite with `GAME_URL=https://hiyroscript.github.io/pof/`. Do not treat local prefix testing as a live deployment test.
+- Pages was already enabled. Publishing the game triggered a successful deployment; the public `/pof/` URL now serves the game and its local assets. The nine browser groups passed at that exact HTTPS URL. See `DEPLOYMENT.md` for the deployment and tested game commit.
 
 ## Manual release procedure
 

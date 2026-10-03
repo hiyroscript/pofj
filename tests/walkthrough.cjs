@@ -37,5 +37,5 @@ const assert=require('node:assert/strict');
   await page.screenshot({path:`docs/screenshots/ending-${stars}-star.png`});await context.close();
   return{stars,decisions:actual.choiceHistory.length,status:'PASS',errors};
  }));
- await browser.close();fs.writeFileSync('docs/WALKTHROUGH_RESULTS.json',JSON.stringify({date:new Date().toISOString(),method:'Scripted full browser routes with real choice and assessment controls',results},null,2)+'\n');
+ await browser.close();fs.writeFileSync('docs/WALKTHROUGH_RESULTS.json',JSON.stringify({date:new Date().toISOString(),url:process.env.GAME_URL||'http://127.0.0.1:8765/pof/',method:'Scripted full browser routes with real choice and assessment controls',results},null,2)+'\n');
 })().catch(e=>{console.error(e);process.exit(1)});

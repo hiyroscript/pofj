@@ -97,5 +97,5 @@ const withoutTimestamp=raw=>{const s=JSON.parse(raw);delete s.updatedAt;return s
   }
  });
  await check('no runtime errors, third-party requests or audio',async()=>{assert.deepEqual(errors,[]);assert.ok(requests.every(url=>url.startsWith(base)));assert.equal(await page.locator('audio,video').count(),0);});
- await browser.close();fs.writeFileSync('docs/BROWSER_RESULTS.json',JSON.stringify({date:new Date().toISOString(),results,errors},null,2));
+ await browser.close();fs.writeFileSync('docs/BROWSER_RESULTS.json',JSON.stringify({date:new Date().toISOString(),url:base,results,errors},null,2));
 })().catch(e=>{console.error(e);process.exit(1)});

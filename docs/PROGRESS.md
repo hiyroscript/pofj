@@ -12,5 +12,7 @@ The repository began with only `max`; all 417 lines were read and the file is un
 - [x] Nine browser acceptance groups
 - [x] Full browser walkthroughs to all three principal endings (391 / 391 / 392 decisions)
 - [x] Deployment, state, story graph and branch documentation
+- [x] Tested game published to main with the original max unchanged
+- [x] Successful GitHub Pages deployment, nine browser groups and three full routes on the public URL
 
-Full-route browser results are recorded separately in `WALKTHROUGH_RESULTS.json`. Native-device, assistive-technology, human reading-time and live Pages verification limits are explicit in `TEST_PLAN.md`. These are not marked as completed manual checks.
+Full-route browser results are recorded separately in `WALKTHROUGH_RESULTS.json`. Native-device, assistive-technology, and human reading-time verification limits are explicit in `TEST_PLAN.md`. These are not marked as completed manual checks.

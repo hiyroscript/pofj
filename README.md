@@ -2,6 +2,8 @@
 
 **Every choice has a semester behind it.**
 
+**[Play A Golden Semester](https://hiyroscript.github.io/pof/)**
+
 A complete, text-first interactive novel about Jonah Reed’s conditional first semester at Bellwether College. Read fifteen weeks of academic pressure, work, friendship, family conversations and a possible consensual romance with Maya Park. Choices persist; assessments require actual answers; passing without dating is a successful academic ending.
 
 The game uses vanilla HTML, CSS and JavaScript. No build step, account, backend, external fonts, tracking, audio or runtime dependencies. The original requirements in [`max`](max) are unchanged.
@@ -26,7 +28,7 @@ Open <http://localhost:8000/>. ES modules need HTTP; double-clicking `index.html
 
 All assets use relative paths and `.nojekyll` is included. Nothing needs to be built or installed for deployment. If the URL returns 404, check that Pages is enabled, the selected branch contains `index.html`, and the Pages build succeeded. The repository connection used to implement this game cannot change Pages administration settings; deployment must be enabled there if it is not already enabled.
 
-The `/pof/` project path was tested on a local HTTP server. A public Pages deployment is not claimed until the public URL serves the game. See the dated [test report](docs/TEST_PLAN.md).
+The game is deployed at the public URL above. GitHub’s Pages build succeeded, and all nine browser acceptance groups passed against that exact HTTPS project path on 2026-10-03. See the dated [test report](docs/TEST_PLAN.md) and [deployment record](docs/DEPLOYMENT.md).
 
 ## Content and outcomes
 

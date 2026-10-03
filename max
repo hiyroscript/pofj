@@ -1,1 +1,417 @@
+# MASTER BUILD PROMPT — A GOLDEN SEMESTER
+## Complete, production-ready interactive college-life narrative game for GitHub Pages
 
+You are a senior narrative game director, branching-fiction author, frontend engineer, UI/UX designer, accessibility engineer, and QA lead. Build and ship a COMPLETE, playable, polished, emotionally grounded, long-form branching story game named "A Golden Semester" directly in this GitHub repository (hiyroscript/pof). This is an IMPLEMENTATION REQUEST, not a request for a mockup, speculative proposal, design-only answer, introductory demo, short prototype, pseudocode, or a partially written story. The final game must run as a static GitHub Pages website with a root-level index.html.
+
+The repository currently contains this instruction file, "max", and may contain no game code. Treat "max" as the source of requirements. Keep it intact when implementing the game. Create the actual game files in the repository. Favor a carefully written and thoroughly tested finished game over excessive tooling or visual effects. DO NOT claim completion until all mandatory story, saving, branching, interface, and testing criteria below are met.
+
+### 1. Non-negotiable user brief
+
+- The player controls a college-age young man. His parents used their savings to help him attend a prestigious, expensive college. After tuition and enrollment expenses he has a tiny amount of money, a modest apartment and food for only a few days. He is new to town and knows nobody.
+- Isolation, financial pressure, poor time management and discouraging early grades make his first weeks increasingly difficult. His grades slip enough that a professor pairs him with an exceptionally capable female student who agrees to mentor/study with him during the semester. Their relationship must develop gradually and credibly and must be affected by the player's behavior.
+- The central interaction is STORY TEXT in the MIDDLE of the screen and 2–4 LARGE DECISION BUTTONS at the BOTTOM, labeled A), B), C), and D) as available. Choices must genuinely alter future events, dialogue, friendships, academic outcomes, resources, opportunities and endings.
+- Required player stats, with exactly these visible names: Intelligence, Charisma, Looks and Happiness. Decisions and minigames change these stats; they in turn influence the odds and available approaches of future challenges. Do not turn the game into a shallow stat-grinding loop.
+- Include relevant and varied playable minigames, particularly exams, presentations, study sessions, budgeting and group projects. Minigames must meaningfully change the branching plot, not simply award decorative points.
+- Exactly three ENDING RATINGS: 1 star = BAD (dismissed/kicked out of college due to poor academic results); 2 stars = FAIR (passes the semester without beginning a romantic relationship with the girl); 3 stars = GOOD (passes the semester, feelings are clearly mutual, and they mutually agree to begin dating). Within each rating, write many distinct epilogues reflecting the actual route.
+- The main good ending must be challenging yet attainable through several legitimate play styles. A fair ending must be satisfying on its own, not portrayed as punishment for not pursuing romance. The bad ending must be a coherent result of academic failure, not a random forced ending.
+- The story must be LONG, richly written, dialogue-heavy, non-repetitive and exceptionally replayable. It should evoke responsibility, uncertainty, friendship, effort and the consequences of small cumulative decisions.
+- Minimalist, premium, polished APP-LIKE design. Only gold, black, white and neutral grays. NO music, NO sound effects, NO vibration, NO noisy particles or garish visuals.
+- Desktop/laptop gameplay: LANDSCAPE ONLY. Smartphone gameplay: PORTRAIT ONLY. Show an attractive and accessible rotate/resize overlay for an unsupported orientation; never erase game state.
+- Autoload an existing saved game where the player left off; preserve choice results, minigame outcomes and relationships. Mobile taps must not trigger annoying double-tap zoom; do not disable deliberate pinch-to-zoom accessibility.
+- Deployable free on GitHub Pages as a static site using index.html at the repository root. No backend, login, analytics, advertisements, payment, accounts or network dependency for gameplay.
+
+### 2. Scope and measurable completeness
+
+Build a finished full-semester interactive novel, not just one week of story:
+- Timeline: 15 distinct in-game weeks, starting at arrival and ending with final results; cohesive prologue, 15 week/chapter milestones, branching finales and an epilogue.
+- Target narrative corpus: 90,000–130,000 words of ORIGINAL authored story text across the full branching graph, including dialogue, alternate responses, scene variations, minigame context and endings. Minimum acceptance floor: 65,000 substantive narrative words. It is acceptable for the full corpus to live in separate static JS story-data files, rather than one gigantic HTML file.
+- Target at least 450 substantially distinct narrative nodes (not counting menu screens, empty redirect nodes or duplicated sentences), 120+ events with meaningfully differentiated choice outcomes, 80+ distinct multi-turn conversations, 12+ large branch/rejoin sequences with persistent consequences, and 24+ epilogue variants across the three star categories. Keep an automated content inventory so these can actually be verified.
+- A typical playthrough should feel like a complete long novel/game arc rather than a 15-minute demo. Allow 3–6+ hours depending on reading speed and exploration. Cumulative replay across alternative paths should expose many more hours of new text.
+- No two choices may repeatedly funnel into exactly the same immediate prose and state. Shared milestones are allowed ONLY when prior decisions are acknowledged through flags, dialogue, relationships, changed stakes, resources and consequences.
+- No filler scenes, recycled “study or party” decisions, random stat farming, fake branches, generic AI-sounding repetition, placeholders, missing chapter transitions, dead ends or “more coming soon” notices.
+- If implementation has to be generated in stages, continue building chapters and testing them until the entire content inventory and all endings are implemented. Never pass off a planned future stage as a finished deliverable.
+
+### 3. Creative direction and world bible
+
+SETTING: Bellwether College, a fictional elite institution in the fictional city of Alderport. It values demanding academic work, research and formal presentations. The campus has a library, small café, scholarship office, student services, career center, main lecture hall, science/logic lab, group-study rooms and a late-night print station. The protagonist lives alone in a cramped, low-cost off-campus apartment above a quiet convenience shop. The external world needs to exist in the writing without requiring maps, sprites or character art.
+
+PROTAGONIST: Jonah Reed, 19, first-year college student, earnest, unprepared for the practical difficulty of living alone, anxious about disappointing parents who financially supported his education. He must not be written as unintelligent by default: his early struggles are the result of inadequate study habits, stress, gaps in preparation and isolation. The player decides how he responds, not whether he possesses basic dignity or compassion. Use third-person limited narration close to Jonah, with polished, readable conversational dialogue and vivid but economical detail.
+
+MENTOR / POTENTIAL LOVE INTEREST: Maya Park, 19, highly capable student with excellent grades, precise thought process, a witty but restrained sense of humor, aspirations and pressures of her own. She is NOT a trophy, tutor vending machine or automatically attracted to Jonah. Give her independent academic ambitions, concerns about taking on extra labor, friends, family expectations, personal boundaries, a meaningful outside life and authentic agency. She can decline his invitations, disagree, need space, apologize when wrong, and grow herself. Her friendship and eventual romantic interest are separate from Jonah's appearance or a single charisma check. A successful romance requires built trust, mutual understanding, repeated respectful choices, freely expressed feelings and an explicit mutual agreement to date.
+
+PROFESSOR: Dr. Evelyn Hart, rigorous, caring but not indulgent. After noticing Jonah's poor early assessments she offers a formal academic improvement plan and coordinates optional guided study sessions with Maya. Do not portray a professor assigning one student to be the protagonist's involuntary caretaker. Maya agrees and has the right to set limits.
+
+SUPPORTING CAST WITH AGENCY:
+- Ben Flores, friendly classmate whose confidence hides difficulty with public speaking. Becomes a loyal friend or an uneasy acquaintance depending on choices.
+- Sofia Grant, driven scholarship student and academic competitor, not a cartoon villain. Collaboration and rivalry must both be possible.
+- Nia Brooks, resident advisor and student-services volunteer who offers practical campus information and connects Jonah to support; dialogue must respect independence and avoid patronizing “fixes.”
+- Luca Ortiz, café shift supervisor offering part-time paid work with changing schedules and genuine pressures.
+- Dr. Malik Evans, academic advisor who explains grading and recovery routes; faculty procedures must stay internally consistent.
+- Jonah's parents, loving but financially stretched and sometimes inadvertently pressuring. Calls and messages vary with what Jonah shares or conceals.
+- At least four additional named peers who recur across group-work, clubs, labs, campus events and the epilogue; each should have a stable voice and story function.
+
+SUBJECTS AND STAKES: Place Jonah in a demanding foundation-semester program with a writing seminar, quantitative reasoning, an introductory research methods course and a collaborative design/ethics module. Connect minigames and academic choices to believable coursework. Bellwether's offer is explicitly a conditional first-semester placement: students below its stated retention standard after documented academic warnings can lose enrollment. Introduce that rule early so dismissal after a disastrous semester is not an arbitrary surprise; discuss academic support and warning notices naturally.
+
+TONAL PRINCIPLES: Mature but age-appropriate; moving but not manipulative; understated romantic tension; grounded humor; quiet kindness; dialogue that sounds like distinct human beings. Isolation and a low mood may be depicted empathetically without graphic self-harm, sensationalism or treating mental health as a simple virtue score. Support-seeking, friendship, routines and counseling may be constructive choices; avoid equating low Happiness with a broken or unworthy person. All principal romantic characters are adults; no explicit sexual content. Keep relationship progression respectful, consensual and emotionally believable.
+
+### 4. Actual story arc: mandatory 15-week backbone
+
+Each chapter must contain unique scene families for at least THREE important prior routes (for example: academically prepared vs behind; honest vs evasive; connected vs isolated), with further changes from money, friendships, Happiness and trust.
+
+PROLOGUE — “What It Cost”: Parents at the station; tuition receipt; moving boxes; apartment key; the cost of starting over. Playable choices establish honesty, spending habits, internal outlook and first contacts without silently predetermining an ending.
+
+WEEK 1 — “The Empty Room”: New apartment; campus orientation; first class; awkward introduction; small grocery decision; library versus avoidance; text home; discovery of retention policy; several small introductions with consequences. Show the setting through action, not exposition dumps.
+
+WEEK 2 — “First Red Mark”: An unexpectedly poor quiz and missed or weak assignment; sleepless second-guessing; Ben's casual invitation; work board at café; choice to seek office hours, study alone, join peers or hide the result. Establish credible academic grade tracking.
+
+WEEK 3 — “Assigned, Not Rescued”: Dr. Hart discusses a structured improvement plan and offers Maya as a willing peer mentor; their first meeting is awkward, layered and choice-reactive. Maya asks why Jonah is failing. He can be candid, evasive, defensive or thoughtfully specific; each leads to distinct conversations and future hooks.
+
+WEEK 4 — “An Agreement”: Maya and Jonah define boundaries and learning goals; tutoring session with interactive learning minigame; one academically meaningful question Jonah must answer himself; Maya has another commitment he can respect or disregard. First real signs of possibility for friendship, not instant romance.
+
+WEEK 5 — “The Price of a Tuesday”: Money tightens; Luca offers shifts; phone call from home; pantry/scholarship support; study plans clash with work. Each option creates tradeoffs and at least two viable resource-management routes without requiring exploitative hours or unrealistic cash windfalls.
+
+WEEK 6 — “Four Names on a Page”: Graded group project with Sofia, Ben, Maya or alternate peers depending on past choices. Leadership, listening, ethics and deadlines matter. Branch into ownership conflict, team trust, helping Ben with speaking, or opportunism; academic integrity must have substantial future consequences.
+
+WEEK 7 — “Midterm Week”: Real interactive midterm minigame based on logic and concepts introduced in preceding scenes. Outcomes vary by preparation, fatigue, actual player responses and earned assistance; results change what Dr. Hart and Maya say.
+
+WEEK 8 — “A Day Without a Deadline”: Mid-semester pause. Optional low-cost exploration, club meeting, volunteer campus event, study break or solo reflection. Relationships deepen through remembered conversations. Allow a platonic path and an incipient mutual-interest path, without labeling them yet.
+
+WEEK 9 — “What Was Said”: A rumor or misunderstanding about grades, favoritism or the group project tests Jonah's integrity and Maya's trust. Include routes for correcting a misconception, acknowledging mistakes, respecting privacy or escalating gossip. There must be repair arcs, with actual costs, not one-button apologies.
+
+WEEK 10 — “The Hours Between”: Rent and food pressure; a hard research milestone; working extra, applying for aid, reducing expenses or revising plans. Show stress affecting studying and decision quality. Grade success must never require ignoring basic wellbeing needs.
+
+WEEK 11 — “Revision”: Writing/research assignment that can be genuinely improved through targeted revisions. Jonah realizes what he has learned or refused to learn; Dr. Hart notices patterns rather than just numeric stats. The player can improve academically despite mediocre early decisions.
+
+WEEK 12 — “Visitors”: Parent phone/video visit or campus family weekend (conditional on availability); showcase how honest vs misleading communications change conversations. Maya has her own academic setback or family obligation, and Jonah can be supportive without attempting to control or solve it for her.
+
+WEEK 13 — “Saying It Clearly”: Approaching finals; a consequential conversation about whether Jonah and Maya's closeness is friendship, interest or an unequal study dynamic. Choices can preserve friendship, build mutual understanding, establish distance or cause a trust rupture. Respectful refusal is a valid path. Romance may not be purchased using money or a Looks threshold.
+
+WEEK 14 — “Final Examination”: Multi-part final exam, presentation, research submission, and last opportunities for responsible grade recovery. Ground tasks in prior instruction, notes and decisions. A recovery route requires real effort and good decisions, not an arbitrary last-minute lucky roll.
+
+WEEK 15 — “The Letter”: Final evaluations and college decision. Grade standing, academic conduct, improvement record, relationships and personal wellbeing inform the final scenes. If qualifying, a 3-star dating ending includes a clear reciprocal conversation after the academic outcome—not “winning” Maya as a reward. If passing without dating, give a complete and hopeful 2-star ending. If dismissed for academic failure, show a serious, compassionate 1-star outcome, with accountability and room for a future life beyond Bellwether.
+
+EPILOGUE — “After the Grades”: Branching consequences: messages from parents; whether Ben stays a friend; rapport with Sofia; work balance; friendship with Maya if romance did not happen; choices about future study habits; institutional next steps. Show distinct scenes for transparent effort, avoidance, work sacrifices, help-seeking, ethical teamwork, repaired trust and relationship status.
+
+### 5. Branching architecture and consequence design
+
+Write a genuine choice-driven state machine rather than a linear script disguised by alternate wording.
+
+- Every story node has a stable unique ID, chapter/week marker, authored prose blocks, optional speaker/dialogue segments, 2–4 choices, conditional availability, explicit requirements, semantic consequences, and destination node(s).
+- Choices must be numbered visually A), B), C), D); if only two options appear, label exactly A) and B), not A) and D). Minimum 2 valid choices always, except a deliberate non-choice “Continue” after a final result.
+- At least one of the following for EVERY meaningful selection: significant stat change, money/time resource tradeoff, relationship change, persistent flag, academic effect, distinctive subsequent scene, changed minigame parameters or a consequential future callback. Prefer two or more. A flavor-only choice is fine occasionally if labeled as such through writing, but it does not count toward meaningful branching targets.
+- Record prior behavior at meaningful granularity: candidAboutGrades, missedTutorial, mentorBoundariesRespected, helpedBen, hidGroupError, appliedForAid, overworkedWeek10, parentHonesty, apologizedWithAction, researchIntegrity, quietFriendship, mutualInterest, explicitDatingAgreement, etc. Use consistent naming.
+- Design at least six durable route families: honest/help-seeking; independent/structured; work-heavy; socially supportive; defensive/isolated; ambitious/risk-taking. Players may switch course through earned actions; don't permanently doom them after one poor choice.
+- Twelve major consequence chains must span 3+ different weeks, with explicit payoffs at the end; examples: dishonesty to parents leading to a difficult Week 12 visit; volunteer assistance leading to project allies; aid application enabling lower-workload exam preparation; team credit dispute affecting recommendations; trusting Maya's privacy leading to truthful Week 13 conversation.
+- Provide at least six different substantive solutions to key crises, some relying on Intelligence, some on Charisma, some on self-presentation/Looks, some on Happiness, some on preparation flags and some on sacrifice plus practical planning. No single stat is universally optimal.
+- Show causality. Foreshadow high-risk choices without revealing hidden plot details. Consequences can be delayed, sometimes surprising, but must be retrospectively understandable.
+- Avoid irreversible “gotcha” outcomes triggered by innocuous wording. Offer realistic recovery paths, especially after mistakes. Retention failure should be attributable to the accumulated academic record.
+- Author “memory lines” within reunions and lectures, in which characters actually refer to specific actions the player took weeks earlier.
+- Persistent narrative facts must not contradict each other: a character cannot be both estranged and eager for a close invitation in the same route, nor can an unpaid rent notice vanish without a plausible resolution.
+- No procedural generation of story prose during gameplay, no remote AI calls, no repeated daily action loops and no randomized scene filler. All narrative language must be hand-authored and shipped in the repository.
+
+BRANCH MATRIX — build and maintain a developer-facing map specifying for each Week 1–15 milestone: incoming key flags; three or more authored scene variations; academic stakes; relationship stakes; resource stakes; outgoing flags; recovery routes; and affected endings. Include that map in docs/BRANCHES.md.
+
+### 6. Player state and quantitative mechanics
+
+STARTING STATE — deliberately difficult but recoverable:
+- Intelligence: 34/100
+- Charisma: 29/100
+- Looks: 43/100
+- Happiness: 28/100
+- Cash: $185
+- First month's low-cost apartment rent already covered, next payment due Week 5.
+- Pantry: small groceries covering five in-game days; show abstract “Food security” rather than a hunger punishment minigame.
+- Academic average: 54/100 after first assessed work; prior writing and quantitative readiness gaps should be explained.
+- Energy: 64/100 (secondary, may be shown in expanded status); Stress: 58/100 (secondary, optional UI).
+- Maya trust: 0, Maya affection: 0 (hidden from the default panel; reveal general relationship descriptors, not manipulative numerical romance targets).
+- Ben friendship: 0; Sofia rapport: 0; professor confidence: 0; attendance and academic integrity tracked.
+- Current week, day, time window, completed assessments, choice history, unique encounter flags, stable challenge seed, save schema version.
+
+SCALE AND BALANCE:
+- Clamp visible stats to [0,100] and other bounded meters appropriately.
+- Normal choices change an affected stat by roughly 1–5 points, major events by 5–10; avoid giant arbitrary +30 bonuses. Grade outcomes can affect Happiness positively or negatively without treating it as a direct measure of personal worth.
+- Intelligence is accumulated academic understanding/problem-solving preparedness, not an innate or permanent IQ label. Charisma represents communication, listening and confidence. Looks represents neatness, presentation, rest, hygiene and appropriate clothing/first impressions—not body shape, genetic beauty or physical attractiveness standards. Happiness represents current mood, belonging and general wellbeing, changeable in both directions. Never mock a body, tie moral value to attractiveness, or make romance dependent on appearance scores.
+- Preserve Cash, bill due dates, food security, work shifts, grades, attendance, assignment completions, study preparation, character trust and story flags. Every tradeoff must have an economically and academically plausible magnitude.
+- Allow basic supportive routes (financial aid, food assistance, peer help, office hours, planning) without humiliating or moralizing the protagonist.
+- Use a calendar with constrained event scheduling rather than forcing the player to spam one action forever. Major time choices alter what can be done before deadlines, and expired windows close naturally.
+- Visible UI should prioritize the four requested stats, academic standing and current week; detailed meters are in the Status panel and not constantly cluttering the narrative.
+
+CHOICE PROBABILITY:
+Some options are commitments and therefore succeed deterministically. Others can be risky skill checks. Risk must reflect preparation, stat proficiency, state flags, task difficulty and (where applicable) the player's actual minigame performance. Implement a documented and testable deterministic seeded PRNG; persist the seed or results so reloading cannot re-roll an already resolved challenge. Never use Math.random() without save-safe control of outcome.
+
+Suggested formula for an ordinary skill check:
+chance = clamp(baseChance + 0.009 × (weightedRelevantStats - targetStat) + earnedPreparationBonus + relationshipBonus - fatigueOrStressPenalty, 0.10, 0.95).
+Use clear per-challenge metadata and tune weights; do not blindly use the formula for every narrative decision. For multi-stat challenges, weightedRelevantStats is an explicitly defined weighted mean. Some earned plans can guarantee success; some choices are guaranteed to fail if an essential prerequisite is knowingly absent, but the player should receive a clue.
+- Indicate meaningful risk before selection with restrained text (e.g., “Reliable approach”, “Uncertain”, “Long shot”) and, if enabled in settings, an explanation of the relevant skills. Don't promise probability guarantees.
+- Success and failure lead to authored, different and persistent outcomes. A failed attempt must not silently become the same result as success.
+- Make challenge outcomes fair and explainable in a post-choice compact “Why this happened” details panel if the player wants it; avoid pop-up spam.
+- Add balance simulation tests proving at least one viable high-Intelligence, one high-Charisma/relationship, and one balanced/practical path can graduate; the romance route must require trust/consent rather than brute-force stat optimization.
+
+GRADE MODEL:
+Track separate believable components with transparent course weights: quizzes 15%, assignments 25%, group project 20%, midterm 15%, final exam 25% (adjust slightly if different courses need it but display a consistent overall formula). Academic performance comes from preparation, conduct, attendance, minigame answers, revisions and timely submission—not merely spending stat points.
+- To PASS the fictional conditional placement and stay enrolled, require overall grade >=70/100 AND no disqualifying academic integrity penalty AND required core work completed. Announce the retention requirement early and remind through official warnings if at risk.
+- If final academic standing is below the qualifying standard after the program's documented recovery process, produce a 1-star academic dismissal ending. Do not dismiss a passing student solely for money, heartbreak or a single dialogue choice.
+- If academic criteria are met, produce at least a 2-star ending.
+- A 3-star ending additionally requires a meaningful established bond with Maya, mutually demonstrated romantic interest and a final voluntary two-sided dating decision. Specific numeric hidden thresholds may support narrative logic, but numeric “affection farming” alone must NEVER produce dating.
+- Keep friendship-only and respectfully unreciprocated possibilities emotionally complete; the academic result must not be downgraded for them.
+
+### 7. Meaningful example scenes that set the writing standard
+
+These are style and causality examples, NOT a substitute for the hundreds of required finished scenes. Write with natural rhythms, silence, humor, subtext and dialogue choices that don't sound like instruction manuals.
+
+EXAMPLE — Week 2 / graded quiz returned:
+Narration: “The quiz landed face-down. Jonah turned it over only after the room thinned. Fifty-two, circled once in red. Around him, backpacks zipped and chairs scraped; everyone else seemed to know where to go next. Dr. Hart was wiping the board. There was still time to ask her how she'd found the weak steps in his reasoning. There was also a message from Luca offering a paid Saturday shift.”
+A) “Ask Dr. Hart to walk through two mistakes.” Outcome: office-hours preparation, honest-professor route, loses a small time window, different conversation later.
+B) “Message Ben and admit the quiz went badly.” Outcome: potential peer study invite, supportive-friend flag, Charisma and Happiness effects.
+C) “Take the café shift and promise to revise later.” Outcome: Cash up, structured-study opportunity missed unless recovered, added fatigue.
+D) “Hide the paper and go home.” Outcome: immediate relief from social discomfort, delayed risk and distinct solitary reflection. Must be recoverable with effort, not instantaneous game over.
+
+EXAMPLE — Week 3 / first meeting with Maya:
+Maya: “I can help you untangle the coursework. I can't do it for you.”
+Jonah: “That sounds reasonable.”
+Maya: “It does until the night before a deadline. So tell me what happened on the second quiz.”
+Narration: “It would be easy to say he had been busy. That was even partly true. But the page between them was covered in unanswered questions, and she hadn't asked him for an excuse.”
+A) “Show her the page and name the topics he didn't understand.” Earns a precise learning plan, tentative trust.
+B) “Ask her how she manages her own schedule first.” Earns context; may lead to mutual conversation if he listens.
+C) “Say the class doesn't match the professor's explanations.” Maya asks for evidence; defensive route can change through honesty.
+D) “Thank her, but request only a study checklist.” Independent path: less closeness now, useful academic preparation remains available.
+These options should result in different immediate dialogue and continuing histories; Maya must remain free to set boundaries.
+
+EXAMPLE — Week 9 / misinformation:
+Maya: “Sofia said you told Ben I edited your draft.”
+Jonah: “I didn't say it like that.”
+Maya: “Then tell me exactly how you said it.”
+This is an honesty crisis, not a simple “choose nicest sentence” exam. Build variations based on whether the player did misattribute work, carelessly repeated a rumor, or was actually misunderstood. Distinct truthful resolutions are required. A false accusation should not require a forced confession.
+
+EXAMPLE — Week 13 / feelings and agency:
+Jonah notices he remembers Maya's laugh more readily than his own formula sheet. This is not automatic proof of a relationship. If accumulated scenes show mutual interest, offer an optional respectful conversation in which Jonah can express feelings without presuming an answer. Maya's reply and later choices must reflect established trust and her independent perspective. If she does not reciprocate, preserve the dignity of the friendship path. If she does, the final good ending must still include both choosing to date, not an implied off-screen decision.
+
+### 8. Distinct branching dialogues and narrative craft constraints
+
+- Each major character must have a clearly recognizable voice, consistent values, distinct humor and realistic response to pressure. Avoid using the same authorial vocabulary for every person.
+- Make at least 80 fully authored conversations with 4–12 back-and-forth lines each (longer for milestones), interspersed with purposeful prose and shorter atmospheric passages.
+- Include quiet, meaningful choices: whether to tell parents the truth, how to acknowledge effort without flattering, deciding whether to volunteer information, respecting privacy, taking or refusing responsibility, admitting confusion, leaving an unhealthy schedule, etc.
+- Have academic improvement occur on the page: Jonah eventually demonstrates understanding of specific concepts; a good grade isn't merely “you feel smarter now.”
+- Make realistic social disagreement possible without humiliating anyone. Avoid one always-correct “nice” button: being kind may consume scarce time; being blunt may clarify problems; asking for help may require vulnerable honesty; a difficult boundary may be healthier than an immediate yes.
+- NPCs must reference calendar, prior commitments and deadlines. Don't put them in the café and library at incompatible times.
+- Write varied scene openings, physical settings, emotional tempos and dialogue lengths. No repetitive phrases about clocks ticking, cold coffee, swallowed words or glowing screens.
+- Give a few memorable motif callbacks (the apartment key, the red quiz circle, a library note, the station receipt) that change meaning organically by the ending.
+- Include academic recovery arcs, stronger friendships, mutually respectful romance, and reflective disappointing routes. Every rating needs several deeply different final paragraphs and epilogues.
+- Text can be sophisticated but always clear on a phone. Keep normal scene text in digestible paragraphs, typically 80–260 words per node when appropriate, plus dialogue. Some quiet moments can be shorter; important milestone conversations may be much longer with accessible progression.
+- Avoid explicit sexual content, glorification of unhealthy behavior, graphic violence and self-harm descriptions. Low Happiness should lead to a nuanced range of valid choices, not locked “bad person” dialogue.
+- No in-game narrator lectures the player about picking the morally correct option. Let consequences tell the story.
+
+### 9. Minigames: interactive, accessible, story-integrated
+
+Ship at least EIGHT DISTINCT mechanics (not eight cosmetic reskins), each with contextual tutorial, keyboard AND touch support, a non-timed accessibility route, meaningful feedback, persistent state and narrative consequences. Spread them through the semester according to story needs; avoid consecutive identical tasks.
+
+A. EXAM / MIDTERM: multiple-choice applied reasoning questions based on topics previously introduced in scenes; 5–8 questions for the midterm, 8–12 for the final. Write multiple authored question pools with explanations and alternative paths, not trivia about external facts. Wrong answers affect grades; prior preparation may give a limited earned hint.
+B. NOTE SYNTHESIS: select the 3–5 relevant notes from a larger set and put them into a sound sequence to build an argument. Use tap-to-select and accessible move-up/down buttons, not drag-only controls.
+C. REVISION WORKSHOP: improve a short student draft by picking the best correction for reasoning, citation, structure or counterargument. Score learning, not typing speed.
+D. WEEKLY PLANNING: allocate a finite number of time blocks between studying, food, work, rest and social commitments. No unwinnable hidden resource demands; the result creates an actual coming-week schedule flag.
+E. BUDGET DECISIONS: compare credible rent, groceries, shifts, aid and transport alternatives within available Cash and time. Choices change work stress and preparation; avoid glorifying deprivation.
+F. GROUP PROJECT / NEGOTIATION: place responsibilities and resolve conflicting member needs through dialogue and priority choices. Listening and prior relationships modify feasible solutions.
+G. PRESENTATION / ORAL DEFENSE: choose response structure to questions from a panel, balancing confidence with accuracy. Prep influences ability to recognize weaknesses; no reaction-speed mechanics.
+H. RESEARCH / EVIDENCE LINKING: match claims to sources and decide which claim needs qualification. Involve academic integrity, consequences and learning payoff.
+Optional I. CUMULATIVE MEMORY / STUDY CARDS: recall earlier explained concepts; let players consult earned notes instead of penalizing memory accessibility.
+Optional J. EMAIL / PROFESSOR MEETING PREP: compose from premade topic cards with clarity, scheduling and honesty; no free-text content moderation needed.
+
+MINIGAME UI:
+- Use the same black/white/gray/gold visual language as story mode. Modal or full-stage panel is acceptable when an actual challenge starts; story text remains primary outside challenges.
+- Each has “Instructions”, progress, current selections, submit/confirm, an optional hint (when earned), and a clear result. Never trap a player in a blank state.
+- No automatic timers needed, no sounds, no fast taps, no tiny draggable targets, and no mouse hover as the only way to reveal help.
+- Explain *why* a response was effective rather than only “Correct/Incorrect”.
+- Retry policies must be chapter-authored: sometimes allow practice without grade impact; once graded, prevent save reload from rerolling an already finished result. Never indefinitely farm stats by replaying a minigame.
+- Include non-minigame alternatives for high-pressure tasks where needed for accessibility and ensure the route still makes sense.
+- Separate question data from rendering and scoring logic to make assessment tests deterministic.
+
+### 10. Interface and product design
+
+VISUAL SYSTEM:
+- Premium restrained palette ONLY: near-black #101113, deep charcoal #1A1C1F, white #FFFFFF, soft off-white #F6F5F1, cool grays #D8D8D6/#999A9D/#62656A and elegant muted gold #C6A34A or #D4AF37. No bright secondary hues. In light surfaces use near-black text, and on dark surfaces use white text; gold is primarily a highlight/border and should not be low-contrast body copy.
+- Strong visual hierarchy; elegant system font stack (no CDN required), generous whitespace, deliberate line-height, concise microcopy, quiet borders, moderate rounded corners and subtle transitions. No elaborate illustrations, backgrounds, visual novel portraits, chat bubbles filling the screen or gamified neon panels.
+- The layout must feel like a thoughtful reading app, not a cramped website, game-engine default screen or a generic admin dashboard.
+- Light/dark variants are optional but MUST stay within the approved palette; choose one exceptionally coherent default rather than two inconsistent themes.
+- Use semantic HTML landmarks, real buttons, readable focus rings and accessible labels. Never use color alone to encode results. Star symbols have text alternatives.
+
+PRIMARY GAME SCREEN:
+1. Compact top bar: game title/wordmark (“A GOLDEN SEMESTER”), current week/day, discreet Save status, a Status button and a Menu button.
+2. Spacious central reading stage: centered narrative block in a comfortably narrow column (about 620–760 CSS px on desktop) with a tasteful small eyebrow such as “WEEK 04 · AFTERNOON”, rich paragraphs, distinguished speaker lines and no distracting artwork.
+3. Fixed-to-layout bottom DECISION AREA: 2–4 choices stacked vertically or arranged as a tasteful 2×2 desktop grid when width permits. Every choice visibly starts A), B), C) or D). Readability beats fitting all four on one row. Keep the choice area accessible as text grows; use independent scrolling if needed.
+4. Compact optional transition strip for stat/grade changes, not oversized toast walls. Show changes only after commitment, not as a gambling machine.
+5. Status drawer/modal: four named visible stats in high-contrast bars, current academic average, Cash, basic resources and a non-spoiler relationships summary (“New acquaintance”, “Growing trust”, etc.).
+6. Pause/Menu: Continue, Save status, Story log of already-seen events, Settings (type size, reduced motion/high contrast), New game (with explicit confirm), Ending archive (unlocked-only) and Save data export/import/delete (if implemented).
+
+RESPONSIVENESS / ORIENTATION:
+- MOBILE PHONE: portrait ONLY; viewport width from approximately 320 to 480 CSS px, height as short as 568 px; respect safe-area insets and dynamic browser toolbar. Top stays compact; center prose area scrolls smoothly; choices remain reliably reachable above bottom safe area, even with four multiline options. Use dvh/svh fallback rather than naive 100vh. Do not crop narrative text or buttons.
+- DESKTOP / LAPTOP: landscape ONLY; optimize from roughly 1024×600 to 2560×1440 at normal zoom, with good readability at 1366×768 and 1920×1080. Center the reading column; display options in a stable bottom pane.
+- TABLET: choose logical behavior based on viewport and pointer; a touch-first small tablet may use the mobile portrait layout and a large keyboard/mouse tablet may use landscape. Document detection logic. Do not rely solely on user agent strings, which can be unreliable.
+- If the display's required orientation is not met, show a full viewport accessible overlay reading “Rotate your device to continue” or “Make your browser window wider to continue”, plus a simple geometric rotate icon in approved colors. Block input to the game underneath but do not interrupt storage or lose in-progress text. The game automatically resumes when corrected. Honor screen-reader announcement for the overlay.
+- PREVENT accidental double-tap-to-zoom on mobile option buttons and other controls: use touch-action: manipulation on tappable controls, proper 16px-or-larger form font sizing, safe touch handling and no unintended double-click actions. Keep the viewport accessible; NEVER set user-scalable=no, maximum-scale=1, or globally block pinch zoom. Avoid blanket preventDefault on touchstart. Ensure fast tapping cannot choose two options.
+- Support pointer and touchscreen equally; minimum comfortable touch target around 44×44 CSS px, enough vertical spacing, no reliance on hover.
+- Use CSS env(safe-area-inset-*) and stable layout constraints. Check software keyboard where import UI might use text entry.
+- Keyboard support: key A/B/C/D (or 1/2/3/4) activates corresponding eligible visible choice only when no modal/input is active; Arrow keys navigate choices; Enter/Space commits focused buttons. Escape closes permitted dialogs. Honor focus restoration.
+- No sounds, music, playback APIs, mute toggle, sound icons, haptics or vibration of any kind.
+- Prefer small CSS transitions (<200ms) and support prefers-reduced-motion without disabling necessary feedback.
+
+ACCESSIBILITY / UX:
+- WCAG 2.2 AA-minded contrast, focus, keyboard operation, semantic heading structure, ARIA announcements of scene transitions, readable text at 200% zoom and controllable type size.
+- DO NOT auto-advance dialogue, rush reading, type text letter-by-letter, hide prose behind animations or force timed reaction tests.
+- Use a brief confirmation for irreversible resets or save deletes, NOT every ordinary choice; choices should feel responsive.
+- Reading progress should be discernible without spoiling ending category. Keep a History/Journal of already read important scenes and facts, accessible but not a time-travel/undo exploit.
+- After selection, place focus deliberately on next narrative heading; announce chapter change politely without reading the entire giant passage at once.
+- If a panel cannot fit the viewport, scroll inside the intended region with visible affordance; avoid background scrolling under dialogs.
+
+### 11. Technical implementation and file architecture
+
+Mandatory: root-level index.html that launches the game directly on GitHub Pages. Use vanilla HTML, CSS and modern plain JavaScript; no build chain, npm install, server, database, React dependency, third-party API, CDN or external fonts. Assets, story data and engine modules can live in subfolders, loaded through RELATIVE paths compatible with a GitHub Pages project URL (/pof/). Do not hardcode host root paths beginning with a slash, since Pages projects usually live below a repository prefix. All content ships locally; after initial download gameplay should need no network calls. No telemetry.
+
+Recommended file structure (adapt only with justification):
+- index.html — valid app entry document, correct viewport metadata, semantic structure.
+- css/styles.css — tokens, stage, orientation, responsive and accessibility styles.
+- js/app.js — boot, input, screen routing, UI and lifecycle.
+- js/state.js — state schema, safe mutations, validation, selectors.
+- js/engine.js — narrative graph execution, conditions, checks, transitions.
+- js/save.js — autosave, load, migration, export/import and error handling.
+- js/minigames.js — reusable interaction/scoring renderer.
+- js/qa.js or tests/*.js — lightweight no-dependency content validation and scripted-path tests.
+- data/chapters/prologue.js; week01.js through week15.js; endings.js — original complete authored scene graph. Use explicit stable exports or a consistent registry.
+- data/questions.js — assessment questions and feedback.
+- docs/STORY_BIBLE.md, docs/BRANCHES.md, docs/STATE_SCHEMA.md, docs/TEST_PLAN.md — verify authoring consistency, consequences, balance and acceptance.
+- README.md — controls, setup, no-build local testing, GitHub Pages configuration, accessibility and feature summary.
+- max — retain this exact master prompt as requirements, not as a substitute for the game.
+
+Use strict ES modules where supported on GitHub Pages, or classic scripts if they simplify the environment; avoid a fragile circular module dependency. Static JSON with fetch is allowed only if tested on Pages and served by a local HTTP server during development; file:// opening is NOT a required execution mode. HTML must not show blank while loading. Handle loading error with a useful visible retry/recovery message.
+
+NODE DATA CONTRACT (design a schema and enforce it consistently):
+id, chapter, timeSlot, location, narrativeBlocks (typed narration or speaker/dialogue), entryEffects (one-time idempotent), variants (condition-driven authored alternative paragraphs), choices (id, label, availability, outcome kind, stat check if any, effect list, target success/failure), minigame config when required, transition metadata and tags for tests. Prefer explicit JSON-compatible data and pure JS functions for conditions, not eval() or injecting HTML from text.
+- Never dangerously insert raw story content into innerHTML. Use textContent or safe DOM creation for authored text and pre-defined emphasis structures.
+- Condition/effect processing must be deterministic, idempotent and bounded; avoid modifying state from repeated rerender.
+- Check every choice target ID at boot in development and in tests.
+- Keep save state small: store references to scenes, inventory, flags, stats, relationships, quiz resolutions, PRNG seed, read-scene IDs and a bounded journal summary; do NOT duplicate all giant narrative text into localStorage.
+- Detect impossible combinations and invalid data; handle without infinite loops.
+- Only one live transition per choice: disable input while processing, prevent double activation/touch race, persist BEFORE showing the next scene when possible.
+- Use semantic app states: TITLE, PLAYING, MINIGAME, PAUSED, ENDING, ORIENTATION_BLOCKED. Preserve underlying state through orientation changes.
+- Root home screen must include New Game and Continue only if a valid save exists, but requested auto-resume should be default: when a valid unfinished save is found, offer a subtle resume transition or immediately restore exact current narrative; do not start at the prologue.
+- Make mobile browser back navigation graceful (don't unexpectedly exit mid-choice; menu optionally uses History API carefully) and rehydrate after page visibility changes.
+
+SAVES:
+- Versioned localStorage key e.g. golden-semester/save/v1, with explicit schemaVersion, integrity checks, updatedAt, storyVersion, currentNodeId, stats, course grades, money, time, flags, relationships, challenge outcomes, choiceHistory and journal IDs.
+- Autosave after EVERY resolved choice, minigame result, significant menu setting and each scene transition. Save exact current pending minigame state if leaving mid-task (or restore to start of the same challenge without awarding points twice).
+- Try/catch all storage reads/writes; if storage is unavailable, keep session state playable, show unobtrusive “Local saving unavailable” and allow optional manual JSON export.
+- Provide graceful migration for compatible old versions and a safe, intelligible error if an incompatible save is found. Never wipe silently.
+- A completed ending can be viewed in an archive; starting a new game resets gameplay state but preserves explicitly separate ending-unlock records until the player requests archive deletion.
+- Provide at least one end-to-end test of refresh from a mid-chapter story node, an active minigame, and right before an ending, verifying exact state preservation and no double-applied effects.
+- Save privacy: local device only, no names/analytics sent anywhere.
+
+### 12. Endings with variations, not arbitrary scores
+
+The on-screen conclusion shows exactly 1, 2 or 3 gold stars with visible accessible textual labeling:
+- ★☆☆ — BAD ENDING / ACADEMIC DISMISSAL. Jonah's reported grades fail Bellwether's stated conditional placement standard despite opportunities for help and recovery. Write at least 8 distinctly authored dismissal epilogues based on whether he acted honestly, sought help late, protected integrity, overworked, neglected support, maintained friends, repaired family trust, or isolated himself. Treat the situation seriously without implying his future is hopeless.
+- ★★☆ — FAIR ENDING / SEMESTER PASSED. He remains enrolled, develops genuine capability, and does not enter a romantic relationship with Maya. Write at least 8 variants: lasting platonic partnership, friendly distance, self-sufficiency, strengthened peer circle, work-study balance, scholarship improvement, respectful unreciprocated feelings, academically strong but socially quiet, etc. Avoid calling being single a failure.
+- ★★★ — GOOD ENDING / SEMESTER PASSED + MUTUAL DATING. In addition to graduation/continuation academic conditions, prior choices built trust and reciprocal romantic interest. An actual candid two-way decision establishes that Maya and Jonah begin dating. Write at least 8 truly distinct romance epilogues showing differing project outcomes, family openness, work commitments, styles of partnership, friend groups and future academic plans. The relationship must remain grounded; do not promise perfection.
+
+Write meaningful captions for each variation in the Ending Archive, but display only unlocked endings; do not spoil unknown routes. Stars describe the requested story outcome categories, not Jonah's human worth. Never silently upgrade/downgrade an ending based on a hidden random roll.
+
+### 13. Challenge and branching implementation examples
+
+Use the following as representative mechanisms, then create many more unique authored instances.
+
+Example 1: Week 5 café shift vs study support. Jonah can A) take a limited shift and proactively reschedule tutoring, B) take every available shift, C) use the campus emergency aid appointment, or D) reduce discretionary spending and form a low-cost meal plan. All four have money, time, wellbeing and relationship ripple effects. Aid is not an instant unlimited payout: requires a conversation, possible eligibility and lead time. Studying and responsible paid work are both viable routes with coherent costs.
+
+Example 2: Week 6 group presentation. If Jonah has helped Ben practice previously, Ben will attempt the opening; if not, he may ask for a different speaking role. If Sofia trusts him, they can share research responsibilities; if not, her objections create an additional decision node. Academic integrity choices create later grade and trust impact independent of whether the presentation “sounds confident.”
+
+Example 3: Week 7 midterm. A prepared player with moderate Intelligence but thoughtful minigame answers can earn a strong result; high Intelligence improves confidence/hints but cannot compensate for many incorrect responses. An underprepared player can obtain an acceptable result through sound reasoning and later revision opportunities, but not through endless retakes.
+
+Example 4: Week 9 repair. If Jonah spread the misleading claim, an apology requires correcting it to affected people AND changing how he handles credit later. If he was falsely accused, evidence and an empathetic conversation can restore trust without demanding he confess to something he did not do. Maya retains the choice to trust again, and she may need time.
+
+Example 5: Week 13 romantic ambiguity. If the relationship is platonic, never inject a sudden attraction scene. If mutual interest is plausible, reveal it through two or more optional contextual conversations and a later intentional choice, not a secret Looks score check. Respect a “not right now” outcome.
+
+### 14. Full product flow
+
+FIRST VISIT:
+- Polished title screen with title, one-sentence hook “Every choice has a semester behind it.” and button “Begin semester”.
+- Brief controls/instructions screen that can be reopened from Menu. No multi-page onboarding or account wall.
+- Begin prologue and choose actions.
+
+RETURNING VISIT:
+- Load last saved narrative node with preserved paragraphs, four stats, current calendar, flags and completed minigames.
+- If save corrupted, show human-readable error and offer export of raw data if possible, then safe New Game; never erase silently.
+
+DURING PLAY:
+- Central prose updates on every scene; choices remain anchored in a dedicated pane; quiet animation optional.
+- Consequences visible through changed text and subtle feedback; the core pleasure is reading and thinking.
+- Important milestones may produce an interstitial header “Week 07 — Midterm” without interrupting saving.
+- If device rotates incorrectly, the orientation overlay blocks interaction without advancing the story.
+
+AFTER ENDING:
+- Full authored resolution, star score, summary of pivotal decisions grounded in actual saved choice IDs, “View epilogue”, “Ending archive” and “New semester” (replay from start). No hidden instant rewind to farm choices.
+- Unlock current variation without erasing old archive entries.
+
+### 15. Test plan: mandatory before completion
+
+Automate wherever possible and manually verify user experience. Write a test report in docs/TEST_PLAN.md with concrete PASS/FAIL entries and reproducible steps, not just “tested”.
+
+GRAPH CONTENT TESTS:
+1. All target node IDs exist; every reachable narrative node has text and >=2 valid choices unless terminal or minigame transition.
+2. There are no unreachable required chapters, orphaned endings, cycles that create limitless stat growth, soft locks or invalid conditional states.
+3. Every chapter 1–15 and the prologue can be reached through intended routes; all 1-, 2- and 3-star outcomes are attainable, with 24+ ending variations.
+4. Branch-route state transitions never contradict recorded actions; choice effects apply once only.
+5. Count substantive narrative words, authored nodes, multi-turn dialogues, long-range flags, unique minigame types and ending variants; record actual counts and compare with Section 2. Never invent metrics.
+6. At least 100 seeded simulated or scripted playthroughs combining diverse actions, with failure logging and boundary-state tests; manual walkthroughs for the intended three principal ending paths.
+7. Check grade boundary at 69 vs 70, academic integrity consequences, ending exclusivity and mutual agreement requirement; no 3-star result without passing.
+
+SAVE / DATA TESTS:
+8. Refresh at introduction, midweek choice, pre-exam, within minigame and before ending; state and pending actions restore correctly.
+9. Test storage-full/unavailable, invalid JSON, missing keys, older schema, archive preservation and delete-confirm flow.
+10. Double tap/double click same option cannot apply twice; no phantom choice due A-D keyboard shortcuts when modal active.
+
+RESPONSIVE / VISUAL TESTS:
+11. Test mobile portrait at 320×568, 360×740, 390×844, 430×932; full prose scrollable, four choices tappable, no horizontal overflow.
+12. Test mobile landscape and desktop portrait orientation-blocked messages and automatic resume; desktop 1024×600, 1366×768 and 1920×1080 landscape.
+13. Repeated quick mobile taps do not zoom or double-select; intentional pinch zoom still functions. Ensure form controls never trigger iOS focus zoom due to tiny font sizes.
+14. Keyboard-only navigation, focus visibility, dialog closing, screen-reader status/scene announcements, contrast, 200% zoom, reduced motion and touch targets.
+15. Check Pages-relative assets on actual /pof/ project URL; no missing file or CORS errors; title-to-ending reachable without any third-party requests.
+16. Verify zero audio requests/playback, no unnecessary permission prompts and no user-tracking calls.
+17. Test a very long dialogue and a long four-choice layout on short screens to ensure both remain usable.
+
+### 16. Quality gates and implementation method
+
+First: inspect the existing repository and respect any existing project files. Plan the data model, chapter graph, UX layout and assessment mechanics. Write the initial design map and a working app shell, then implement EVERY chapter, variation and ending in real code/data.
+
+Second: build graph validator and deterministic grade/state tests EARLY, before expanding prose. Do not insert hundreds of story nodes without a validator; it must catch broken links, duplicate IDs, missing text, malformed conditions, invalid stat changes and unintended infinite cycles.
+
+Third: author and integrate story scenes in meaningful batches, keeping the intended voice and continuity consistent. Record required route callbacks and branch payoff deadlines, then test the story after each chapter. Prioritize originality and genuine branching over inflated counts.
+
+Fourth: complete all eight minigame types with substantial unique question content; integrate scores, feedback, flags and save behavior. Implement complete ending epilogues and unlock gallery. Finish responsive styling, device constraints and accessible interactions.
+
+Fifth: run automated and manual acceptance tests, repair failures, and only then mark the product finished. If a tool has output or token limits, proceed in batches and keep a progress checklist in a developer document. The deliverable must be the WORKING GAME, not a list of tasks, not a set of promises and not an unfinished skeleton.
+
+FINAL DELIVERABLES:
+- Fully playable root index.html on GitHub Pages, complete CSS/JS, every week and all ending variations.
+- A detailed README explaining how to deploy via repository Settings → Pages → Deploy from branch → main/root and access https://hiyroscript.github.io/pof/ once Pages is enabled.
+- Authoritative story graph/branch reference, state schema and actual test report.
+- Verified autosave/continue, four stats, actual exam and other diverse minigames, 2–4 decisions, portrait mobile / landscape desktop behavior, minimal gold/white/black/gray interface, and absolutely no audio.
+- The "max" prompt must remain available as the design contract.
+
+### 17. Final self-audit / Definition of Done
+
+Do not describe the game as complete unless you can truthfully answer YES to ALL of the following:
+[ ] index.html exists at repository root and launches without build commands.
+[ ] All fifteen in-game weeks, prologue, letter/results and epilogues exist as actual authored content.
+[ ] The full graph meets the substantive length, unique-scene, conversation and alternative-route targets; report real measured totals.
+[ ] Every choice on every node has real outcome logic, and persistent consequences appear later.
+[ ] Intelligence, Charisma, Looks and Happiness all visibly matter and can increase or decrease.
+[ ] Money, timing, grades, integrity, relationships and practical support work coherently.
+[ ] All eight genuinely distinct minigame mechanics are playable, accessible and save-safe.
+[ ] 1-star dismissal, 2-star semester pass, 3-star semester pass plus mutual dating are all reachable and exclusive.
+[ ] Endings have at least 24 unique, authored, route-specific epilogue variations.
+[ ] Autosave/continue restores exact story state and avoids reroll/duplicate rewards.
+[ ] Desktop only presents gameplay in landscape; smartphone only in portrait; switching orientation never loses progress.
+[ ] Mobile double taps never trigger accidental browser zoom; pinch-zoom accessibility remains enabled.
+[ ] All visible UI is polished and limited to muted gold, black, white and gray.
+[ ] There are no music, SFX, vibration, ads, accounts, tracking or external gameplay dependencies.
+[ ] Gameplay and UI support touch, keyboard, readable type, reduced motion and screen readers.
+[ ] GitHub Pages deployment paths, branching graph, meaningful choices and save behavior have been tested and documented.
+
+Success means a player finishes a long, coherent and emotionally resonant novel-like game, replays with different decisions, encounters genuinely new scenes, and recognizes that the game faithfully remembers how they lived through the semester. Build exactly that experience, with no placeholder scenes and no omitted endings.
